@@ -80,22 +80,25 @@
 
 /* donate today section style */
 main {
-    max-width: 1100px;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 150px;
 }
 
 .donate-today {
     text-align: center;
-    margin-bottom: 100px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 1000px;
 }
 
-.donate-today h2 {
+.section-title {
     font-size: 50px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.donate-description {
+.section-description {
     font-size: 25px;
     color: rgb(69, 66, 66);
     margin-bottom: 20px;
@@ -152,4 +155,31 @@ form {
     border-bottom: 1px solid #565353;
     font-size: 30px;
     color: #565353;
+}
+
+/* donate plan section css */
+
+.plan-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.plan{
+    padding: 60px 30px;
+    margin: 0px 5px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.plan img{
+    margin-bottom: 20px;
+}
+
+.plan-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.plan-description{
+    font-size: 20px;
+
 }
