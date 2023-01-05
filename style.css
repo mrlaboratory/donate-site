@@ -16,26 +16,24 @@
 .header {
     width: 100%;
     height: 900px;
-    
     background-image: url('images/donation5.jpg');
-    
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: 100%;
-    
+
 
 
 }
 
 /* banner and gradient system style  */
-.banner{
+.banner {
     width: 100%;
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-   background-image: linear-gradient(#00000000 , #000000);
-  
+    background-image: linear-gradient(#00000000, #000000);
+
 }
 
 
@@ -61,17 +59,97 @@
 
 }
 
-.headerbtn {
+.btn-primary {
     padding: 10px 15px;
     background-color: rgb(233, 89, 57);
     border: none;
-    margin-top: 30px;
+    color: white;
+    text-align: center;
     font-size: 30px;
     cursor: pointer;
     border-radius: 10px;
-    color: white;
-    text-align: center;
+    margin-top: 30px;
+}
+
+.headerbtn {
     display: flex;
     margin: 0 auto;
 
+}
+
+
+/* donate today section style */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.donate-today {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.donate-today h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.donate-description {
+    font-size: 25px;
+    color: rgb(69, 66, 66);
+    margin-bottom: 20px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+}
+
+.price-container .price {
+    background-color: rgb(221, 224, 228);
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.price p {
+    font-size: 50px;
+    margin-right: 50px;
+    position: relative;
+    color: #565353;
+    font-weight: bold;
+}
+
+.price p:after {
+    content: ' TK';
+    color: red;
+    position: absolute;
+    right: -52px;
+}
+
+.clicked {
+    background-color: rgb(242, 218, 218) !important;
+    border: 1px solid red !important;
+}
+
+form {
+    max-width: 1050px;
+}
+
+.cutomdonate input[type='number'] {
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #565353;
+    font-size: 30px;
+    color: #565353;
 }
