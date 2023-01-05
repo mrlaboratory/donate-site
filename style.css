@@ -1,0 +1,77 @@
+/* css for donate site  */
+
+
+
+/* header css */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+
+
+.header {
+    width: 100%;
+    height: 900px;
+    
+    background-image: url('images/donation5.jpg');
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    
+
+
+}
+
+/* banner and gradient system style  */
+.banner{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: linear-gradient(#00000000 , #000000);
+  
+}
+
+
+.hdiv {
+    max-width: 1100px;
+}
+
+.hdiv .title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 100px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.hdiv .description {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.headerbtn {
+    padding: 10px 15px;
+    background-color: rgb(233, 89, 57);
+    border: none;
+    margin-top: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+
+}
