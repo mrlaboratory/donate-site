@@ -11,6 +11,9 @@
 
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -71,6 +74,11 @@
     font-size: 20px;
     cursor: pointer;
     margin-top: 30px;
+    transition-duration: .6s;
+}
+.btn-primary:hover{
+    background: #0ae989;
+    color: black;
 }
 
 .headerbtn {
@@ -78,7 +86,10 @@
     margin: 0 auto;
 
 }
-
+.headerbtn a{
+    text-decoration: none;
+    color: white;
+}
 
 /* donate today section style */
 main {
