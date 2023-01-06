@@ -109,12 +109,14 @@ main {
 .price-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.price-container .price {
-    background-color: rgb(221, 224, 228);
-    width: 200px;
-    height: 150px;
+.price-container .price {font-weight: 700;
+
+    background: #e1dfdf;
+
+padding: 43px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,27 +127,33 @@ main {
 }
 
 .price p {
-    font-size: 50px;
-    margin-right: 50px;
-    position: relative;
+    font-size: 30px;
+    color: #707070;
+    /* margin-right: 50px; */
+
     color: #565353;
     font-weight: bold;
 }
 
-.price p:after {
+/* .price p:after {
     content: ' TK';
     color: red;
     position: absolute;
     right: -52px;
-}
+} */
 
 .clicked {
     background-color: rgb(242, 218, 218) !important;
-    border: 1px solid red !important;
+    border: 1px solid #FF5959 !important;
+   
+
+}
+.clicked p {
+    color: #FF5959;
 }
 
 form {
-    max-width: 1050px;
+    max-width: 900px;
 }
 
 .cutomdonate input[type='number'] {
@@ -157,6 +165,8 @@ form {
     border-bottom: 1px solid #565353;
     font-size: 30px;
     color: #565353;
+    margin: 0 auto;
+    
 }
 
 /* donate plan section css */
@@ -237,7 +247,7 @@ color: #707070;
     background: #FFF4D6;
     margin:0 auto;
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     padding:76px 188px ;
 
 }
