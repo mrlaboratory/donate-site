@@ -219,3 +219,57 @@ article {
 font-size: 18px;
 color: #707070;
 }
+
+
+/* update section style */
+.update{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/*  subscribe section style  */
+
+.subscribe{
+    max-width: 800px;
+    background: #FFF4D6;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    padding:76px 188px ;
+
+}
+
+.subscribe form{
+width: 450px;
+margin: 0 auto;
+display: flex;
+
+}
+
+.subscribe input[type='email']{
+    padding: 14px 118px 14px 17px ;
+    border-radius: 10px;
+    border: none;
+    border: 0 0 0 1px;
+    outline: none;
+    background: #D9D9D9;
+    font-weight: 500;
+font-size: 16px;
+
+}
+
+.subscribe input[type='submit']{
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 0 1 0 0px;
+    outline: none;
+    background: #FF5959;
+    color: white;
+    font-weight: 500;
+font-size: 16px;
+cursor: pointer;
+
+}
