@@ -7,7 +7,8 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Inter', sans-serif;
+
 
 }
 
@@ -61,13 +62,13 @@
 
 .btn-primary {
     padding: 10px 15px;
-    background-color: rgb(233, 89, 57);
+    background: #FF5959;
+    border-radius: 5px;
     border: none;
     color: white;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
-    border-radius: 10px;
     margin-top: 30px;
 }
 
@@ -159,27 +160,62 @@ form {
 
 /* donate plan section css */
 
-.plan-container{
+.plan-container {
     display: flex;
     margin-bottom: 50px;
 }
 
-.plan{
+.plan {
     padding: 60px 30px;
     margin: 0px 5px;
     background-color: bisque;
     border-radius: 10px;
 }
-.plan img{
+
+.plan img {
     margin-bottom: 20px;
 }
 
-.plan-title{
+.plan-title {
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-.plan-description{
+.plan-description {
     font-size: 20px;
 
+}
+
+article {
+    width: 100%;
+}
+
+.blog {
+    display: flex;
+    gap: 94px;
+    margin: 30px 0px;
+}
+
+.blogside img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.blogside-text {
+    margin-top: 70px;
+}
+
+.blogtitle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.blogdescription{
+    margin-bottom: 20px;
+    font-weight: 400;
+font-size: 18px;
+color: #707070;
 }
