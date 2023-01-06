@@ -179,8 +179,18 @@ form {
 .plan {
     padding: 60px 30px;
     margin: 0px 5px;
-    background-color: bisque;
+    
     border-radius: 10px;
+}
+.color1{
+    background: #4F9DA61A;
+
+}
+.color2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.color3{
+    background-color: bisque;
 }
 
 .plan img {
