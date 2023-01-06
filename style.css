@@ -67,7 +67,8 @@
     border: none;
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 20px;
     cursor: pointer;
     margin-top: 30px;
 }
@@ -271,5 +272,27 @@ font-size: 16px;
     font-weight: 500;
 font-size: 16px;
 cursor: pointer;
+
+}
+
+
+/* footer style */
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #0B0D17;
+}
+
+footer h2{
+    font-family: 'Lobster';
+font-weight: 400;
+font-size: 36px;
+color: #FF5959;
+font-family: 'Lobster', cursive;
 
 }
